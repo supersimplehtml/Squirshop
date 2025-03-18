@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(81, 1, 81);
+  padding: 2vw 4vw;
+}
+header{
+    padding: 1vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.logo img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo h1{
+    color:rgb(211, 138, 3)
+}
+ nav{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+ }
+ nav li{
+    list-style: none;
+ }
+ nav li a{
+    color:rgb(209, 136, 1);
+    text-decoration: none;
+    font-weight: 780;
+    font-size: 18px;
+ }
+ .buttons{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+ }
+ .buttons .started {
+    padding: 1vw 2vw;
+    background-color: rgb(198, 129, 0);
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+ }
+ .buttons .login {
+    padding: 1vw 2vw;
+    border: 2px solid rgb(198, 129, 0);
+    color: rgb(198, 129, 0);
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+ }
+ .buttons .login:hover {
+    padding: 1vw 2vw;
+    border: 2px solid rgb(198, 129, 0);
+    background-color: rgb(198, 129, 0);
+    color:white;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 30px;
+ }
+ .buttons .started:hover {
+    padding: 1vw 2vw;
+    border: 2px solid rgb(198, 129, 0);
+    color: rgb(198, 129, 0);
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: transparent;
+ }
+ main{
+    
+    display: flex;
+ }
+ .cont{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+ }
+.cont h1{
+    font-size: 7vw;
+    color: rgb(223, 132, 4);
+}
+.cont h3{
+   position: absolute;
+   color: rgb(223, 132, 4);   
+   left: 30%;
+   bottom: 20%;
+   font-family: segoe print;
+}
+.model{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 70vh;
+}
+.mdl{
+   position:relative;
+   height: 100%;
+   margin-top: 10vw;
+}
